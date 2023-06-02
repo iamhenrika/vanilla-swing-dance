@@ -1,8 +1,8 @@
 # world-clock
  
- a world clock app that shows the current time in a few locations.
+basic app on a hobby with theme change capabilities
  
-![alt text](https://i.imgur.com/6IeD2ne.png)
+![alt text](https://https://i.imgur.com/On3fuuf.png)
 
 deployed site:
 
