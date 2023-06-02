@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swing Dance</title>
+  <style>
+    body {
+      background: linear-gradient(178deg, rgba(201, 234, 252, 0.51) 14.9%, rgba(139, 192, 216, 0.73) 80%);
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 90px;
+      font-weight: 200;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    em {
+      font-size: 22px;
+    }
+
+    p {
+      padding: 20px;
+      font-size: 20px;
+      line-height: 1.4;
+    }
+
+    img {
+      display: block;
+      margin: 10px auto 8px;
+      width: 100%;
+      height: 100%;
+    }
+
+    .grid,
+    .grid-two {
+      margin: 16px 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 8px;
+    }
+
+    .grid img,
+    .grid-two img {
+      width: 100%;
+      border-radius: 6px;
+      transition: all 180ms ease-in-out;
+    }
+
+    .grid img:hover,
+    .grid-two img:hover {
+      filter: contrast(80%);
+      transform: scale(2) rotate(-5deg);
+    }
+
+    .container {
+      margin: 20px auto;
+      max-width: 600px;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      margin: 30px 0;
+      font-size: 12px;
+      color: #02a6b6;
+    }
+
+    .theme-button {
+      display: block;
+      margin: 10px auto;
+      background-color: #053b41;
+      color: #ffffff;
+      font-size: 14px;
+      padding: 8px 10px;
+      border: none;
+      border-radius: 4px;
+      box-shadow: 2px 2px 2px rgb(252, 251, 251);
+      transition: all 180ms ease-in-out;
+    }
+
+    .theme-button:hover {
+      color: #0c0f2b;
+      background: #ffffff;
+      cursor: pointer;
+    }
+
+    .swing-sepia {
+      border-radius: 10px;
+      transition: all 180ms ease-in-out;
+    }
+
+    .swing-sepia:hover {
+      filter: contrast(80%);
+      transform: scale(1.2) rotate(5deg);
+    }
+
+    .dark {
+      background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+      color: #ffffff
+    }
+
+    .dark .container {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .dark a {
+      color: #F0F8FF;
+    }
+
+    .dark .theme-button {
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    .dance {
+      display: block;
+      margin: 10px auto;
+      background-color: #ffffff;
+      color: #000000;
+      font-size: 14px;
+      padding: 8px 10px;
+      border: none;
+      border-radius: 4px;
+      box-shadow: 2px 2px 2px rgb(252, 251, 251);
+      transition: all 180ms ease-in-out;
+
+    }
+
+    .dance:hover {
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <button class="theme-button">change theme</button>
+  <div class="container">
+    <a href="https://en.wikipedia.org/wiki/Swing_(dance)" target="_blank">
+      <h1>Swing Dance</h1>
+    </a>
+    <h2>A New Hobby</h2>
+    <a href="https://youtu.be/s4C8qwR3oj0" target="_blank">
+
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/978/original/one.jpg?1677280920"
+        alt="" class="swing-sepia"> </a>
+
+    <div class="grid">
+
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/980/original/five.jpg?1677281046"
+        alt="">
+
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/981/original/four.jpg?1677281082"
+        alt="">
+
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/985/original/two.jpg?1677281665"
+        alt="">
+
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/982/original/eight.jpg?1677281105"
+        alt="">
+    </div>
+    <p><em>Swing dance </em> is a group of social dances that developed with the swing style of jazz music in the
+      1920s–1940s,
+      with
+      the
+      origins of each dance predating the popular "swing era". Hundreds of styles of swing dancing were developed; those
+      that
+      have survived beyond that era include Lindy Hop, Balboa, Collegiate Shag, and Charleston. Today, the
+      best-known of
+      these dances is the Lindy Hop, which originated in Harlem in the early 1930s.
+      <br />
+      <br />While the majority of swing
+      dances
+      began in African-American communities as vernacular African-American dances, some influenced swing-era dances,
+      like
+      Balboa, developed outside of these communities.
+      <br />
+      <br />
+      "Swing dance" was not commonly used to identify a group of dances until the latter half of the 20th century.
+      Historically, the term swing referred to the style of jazz music, which inspired the evolution of the dance.
+      Jitterbug
+      is any form of swing dance, though it is often used as a synonym for the six-count derivative of Lindy Hop called
+      "East
+      Coast Swing". It was also common to use the word to identify a kind of dancer (i.e., a swing dancer). A
+      "jitterbug"
+      might prefer to dance Lindy Hop, Shag, or any of the other swing dances. The term was famously associated with
+      swing
+      era
+      band leader Cab Calloway because, as he put it, "[The dancers] look like a bunch of jitterbugs out there on the
+      floor
+      due to their fast, often bouncy movements."
+      <br />
+      <br />
+      The term "swing dancing" is often extended to include other dances that do not have certain characteristics of
+      traditional swing dances: West Coast Swing, Carolina Shag, East Coast Swing, Hand Dancing, Jive, Rock and Roll,
+      Modern
+      Jive, and other dances developed during the 1940s and later. A strong tradition of social and competitive boogie
+      woogie
+      and Rock 'n' Roll in Europe add these dances to their local swing dance cultures.
+    </p>
+    <div class="grid-two">
+
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/988/original/three.jpg?1677282829"
+        alt="">
+
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/989/original/six.jpg?1677282851"
+        alt="">
+
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/991/original/seven.jpg?1677282867"
+        alt="">
+
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/992/original/nine.jpg?1677282879"
+        alt="">
+    </div>
+  </div>
+  <a href="https://en.wikipedia.org/wiki/Lindy_Hop" target="_blank"><button class="dance">Lindy
+      Hop</button></a>
+
+  <a href="https://en.wikipedia.org/wiki/West_Coast_Swing" target="_blank"><button class="dance">West Coast
+      Swing</button></a>
+  <footer>Coded by Henrika Smith 🐘</footer>
+  <script>
+
+    function changeTheme() {
+      let body = document.querySelector("body");
+
+      body.classList.toggle("dark")
+    }
+
+    let themeButton = document.querySelector(".theme-button");
+    themeButton.addEventListener("click", changeTheme);
+  </script>
+</body>
+
+</html>
