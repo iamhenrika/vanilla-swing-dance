@@ -2,7 +2,7 @@
  
 basic app on a hobby with theme change capabilities
  
-![alt text]([Imgur](https://i.imgur.com/On3fuuf.png))
+![alt text](https://i.imgur.com/On3fuuf.png)
 
 deployed site:
 
